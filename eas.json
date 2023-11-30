@@ -1,0 +1,75 @@
+{
+  "cli": {
+    "version": ">= 5.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "base": {
+      "env": {
+      }
+    },
+    "development": {
+      "extends": "base",
+      "developmentClient": true,
+      "distribution": "internal",
+      "channel": "development",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_EAS_PROFILE": "development",
+        "NAME": "RN Experiments (dev)",
+        "PACKAGE_IDENTIFIER": "com.rnexperiments.dev"
+      }
+    },
+    "preview": {
+      "extends": "base",
+      "distribution": "internal",
+      "channel": "preview",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_EAS_PROFILE": "preview",
+        "NAME": "RN Experiments (preview)",
+        "PACKAGE_IDENTIFIER": "com.rnexperiments.dev"
+      }
+    },
+    "staging": {
+      "extends": "base",
+      "distribution": "store",
+      "channel": "staging",
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_EAS_PROFILE": "staging",
+        "NAME": "RN Experiments (staging)",
+        "PACKAGE_IDENTIFIER": "com.rnexperiments"
+      }
+    },
+    "production": {
+      "extends": "base",
+      "distribution": "store",
+      "channel": "production",
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_EAS_PROFILE": "production",
+        "NAME": "RN Experiments",
+        "PACKAGE_IDENTIFIER": "com.rnexperiments"
+      }
+    }
+  },
+  "submit": {
+    "base": {
+      "ios": {},
+      "android": {
+        "releaseStatus": "draft"
+      }
+    },
+    "staging": {
+      "extends": "base"
+    },
+    "production": {
+      "extends": "base"
+    }
+  }
+}
