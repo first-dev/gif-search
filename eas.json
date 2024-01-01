@@ -18,8 +18,8 @@
       },
       "env": {
         "EXPO_PUBLIC_EAS_PROFILE": "development",
-        "NAME": "RN Experiments (dev)",
-        "PACKAGE_IDENTIFIER": "com.rnexperiments.dev"
+        "NAME": "Gif Search (dev)",
+        "PACKAGE_IDENTIFIER": "com.gifsearch.dev"
       }
     },
     "preview": {
@@ -31,8 +31,8 @@
       },
       "env": {
         "EXPO_PUBLIC_EAS_PROFILE": "preview",
-        "NAME": "RN Experiments (preview)",
-        "PACKAGE_IDENTIFIER": "com.rnexperiments.dev"
+        "NAME": "Gif Search (preview)",
+        "PACKAGE_IDENTIFIER": "com.gifsearch.dev"
       }
     },
     "staging": {
@@ -42,8 +42,8 @@
       "autoIncrement": true,
       "env": {
         "EXPO_PUBLIC_EAS_PROFILE": "staging",
-        "NAME": "RN Experiments (staging)",
-        "PACKAGE_IDENTIFIER": "com.rnexperiments"
+        "NAME": "Gif Search (staging)",
+        "PACKAGE_IDENTIFIER": "com.gifsearch"
       }
     },
     "production": {
@@ -53,8 +53,8 @@
       "autoIncrement": true,
       "env": {
         "EXPO_PUBLIC_EAS_PROFILE": "production",
-        "NAME": "RN Experiments",
-        "PACKAGE_IDENTIFIER": "com.rnexperiments"
+        "NAME": "Gif Search",
+        "PACKAGE_IDENTIFIER": "com.gifsearch"
       }
     }
   },

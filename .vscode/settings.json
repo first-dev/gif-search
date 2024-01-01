@@ -1,5 +1,7 @@
 {
   "cSpell.words": [
-    "rnexperiments"
-  ]
+    "gifsearch"
+  ],
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "julia.environmentPath": "c:\\repositories\\gifs-search"
 }
